@@ -1,0 +1,39 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "author": "Ezenwankwo Gabriel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.15.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "7.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "pm2": "^3.5.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "webpack": "^4.41.0"
+  }
+}
