@@ -32,7 +32,7 @@
       {
         "id": "f4ab6de6e61c86f03f6fef46f7c407f1",
         "title": "React v15.5.0",
-        "date": "Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
+        "date": " Fri Apr 07 2017 00:00:00 GMT+0000 (UTC)",
         "authorId": "d85577ea34ae50f2dac5347b5219aa23",
         "body": "It's been exactly one year since the last breaking change to React. Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals. We take stability seriously, and are committed to bringing those improvements to all of our users with minimal effort.\n To that end, today we're releasing React 15.5.0."
       }
