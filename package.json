@@ -6,7 +6,8 @@
   "author": "Ezenwankwo Gabriel",
   "license": "MIT",
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
+    "start:debug": "react-scripts --inspect start --no-cache --runInBand",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
@@ -27,6 +28,7 @@
   "dependencies": {
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "7.0.0",
     "babel-polyfill": "^6.26.0",
